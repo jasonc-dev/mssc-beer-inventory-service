@@ -50,5 +50,5 @@ public class BeerInventory extends BaseEntity{
     private UUID beerId;
 
     private String upc;
-    private Integer quantityOnHand;
+    private Integer quantityOnHand = 0;
 }
